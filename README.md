@@ -15,5 +15,5 @@ repo: レポジトリ名
 
 
 ```
-![Kotori-rate](https://img.shields.io/badge/dynamic/json.svg?label=Kotori-Rate&colorB=fff98e&query=$.kotori_rate&uri=https%3A%2F%2Fus-central1-kotori-badge.cloudfunctions.net%2Fbadge%3Fowner%3D${owner}%26repo%3${repo}&suffix=%)
+![Kotori-rate](https://img.shields.io/badge/dynamic/json.svg?label=Kotori-Rate&colorB=fff98e&query=$.kotori_rate&uri=https%3A%2F%2Fasia-northeast1-kotori-badge.cloudfunctions.net%2Fbadge%3Fowner%3D${owner}%26repo%3${repo}&suffix=%)
 ```

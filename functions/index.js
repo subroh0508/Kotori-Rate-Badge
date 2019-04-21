@@ -8,7 +8,7 @@ const requestPromise = require('request-promise');
 //  response.send("Hello from Firebase!");
 // });
 
-exports.badge = functions.https.onRequest((request, response) => {
+exports.badge = functions.region('asia-northeast1').https.onRequest((request, response) => {
   const owner = request.query['owner'];
   const repo = request.query['repo'];
 
